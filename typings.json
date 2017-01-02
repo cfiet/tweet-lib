@@ -1,0 +1,11 @@
+{
+  "name": "tweet-lib",
+  "dependencies": {
+    "amqplib": "registry:npm/amqplib#0.4.1+20160726143451",
+    "rabbit.js": "registry:dt/rabbit.js#0.4.2+20160727010356",
+    "winston": "registry:dt/winston#0.0.0+20161122193333"
+  },
+  "globalDependencies": {
+    "node": "registry:env/node#6.0.0+20161225010013"
+  }
+}

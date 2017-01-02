@@ -1,0 +1,27 @@
+{
+  "name": "tweet-lib",
+  "version": "1.0.0",
+  "description": "Common code for Tweet fetching services",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -c dist/test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfiet/tweet-lib.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cfiet/tweet-lib/issues"
+  },
+  "homepage": "https://github.com/cfiet/tweet-lib#readme",
+  "devDependencies": {
+    "typescript": "^2.1.4",
+    "typings": "^2.1.0"
+  },
+  "peerDependencies": {
+    "prom-client": "git+https://github.com/cfiet/prom-client.git",
+    "winston": "^2.3.0"
+  }
+}
